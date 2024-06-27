@@ -1,0 +1,72 @@
+// Estilos de la opcion editar
+.swal2-popup.wide-swal-popup {
+    max-width: 90%; /* Ajusta este valor según tus necesidades */
+    width: auto;
+  }
+  .swal-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px; /* Ajusta el espacio entre columnas y filas según sea necesario */
+    width: 100%;
+    margin: 0 auto;
+  }
+  .swal-container .swal-input-group {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .swal-container .swal-input-group label {
+    width: 120px; /* Ajusta este valor según tus necesidades */
+    display: flex;
+    align-items: flex-start;
+  }
+  .swal-container .swal-input-group input {
+    flex: 1;
+    margin: 3px;
+  }
+  @media (max-width: 1200px) {
+    .swal-container {
+      grid-template-columns: 1fr;
+    }
+    .swal-container .swal-input-group.full-width {
+      grid-column: span 1;
+    }
+  }
+
+.list-container-product-screen {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 10px 0 10px;
+    background-color: #ffffff;
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+
+    &:hover {
+        box-shadow: 2px 4px 10px 1px rgba(207, 170, 170, 0.47);
+    }
+
+    .status {
+        padding: 5px;
+        border-radius: 5px;
+
+        &.Disponible {
+            color: green;
+            background-color: rgba(0, 128, 0, 0.151);
+        }
+
+        &.Agotado {
+            color: #ffffff;
+            background-color: crimson;
+        }
+    }
+
+    .viewButton {
+        background-color: lightblue;
+        color: #ffffff;
+    }
+
+    .deleteButton {
+        background-color: crimson;
+        color: #ffffff;
+    }
+}

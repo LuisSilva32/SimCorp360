@@ -1,0 +1,53 @@
+.new-employee-container {
+    padding: 5px 20px 20px 20px;
+    border-radius: 10px;
+    margin: 0 10px 0 10px;
+    background-color: #ffffff;
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+
+    &:hover {
+        box-shadow: 2px 4px 10px 1px rgba(207, 170, 170, 0.47);
+    }
+
+    .title-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h1 {
+            color: gray;
+            font-size: 24px;
+        }
+    }
+
+    .new-employee-form {
+
+        .container-img {
+            object-fit: contain;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                max-width: 320px;
+                max-height: 320px;
+                border-radius: 8px;
+            }
+        }
+
+        .container-file {
+            margin: 20px 0;
+        }
+
+        .label-new-employee-form {
+            font-size: 14px;
+            color: gray;
+        }
+
+        .formCheck label {
+            font-size: 14px;
+            color: gray;
+        }
+    }
+}

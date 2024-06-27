@@ -1,0 +1,21 @@
+.chart {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    border-radius: 10px;
+    padding: 10px;
+    color: gray;
+    background-color: #ffffff;
+    height: 435px;
+
+    &:hover {
+        box-shadow: 2px 4px 10px 1px rgba(207, 170, 170, 0.47);
+    }
+
+    .title {
+        margin-bottom: 15px;
+    }
+
+    .chartGrid {
+        stroke: lightgrey;
+    }
+}

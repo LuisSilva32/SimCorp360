@@ -1,0 +1,128 @@
+.datatable {
+    // Estilos para el contenedor del header
+    .header {
+        display: flex;
+        justify-content: space-between; // Alinea el título a la izquierda y el input a la derecha
+        align-items: center; 
+        padding: 5px;
+
+        .title-table {
+            margin: 0; // Elimina el margen por defecto del h1
+            font-size: 24px; // Tamaño de fuente del título
+            color: gray;
+        }
+
+        .form {
+            --width-of-input: 200px;
+            --border-height: 1px;
+            --border-before-color: rgba(221, 221, 221, 0);
+            --border-after-color: #ff5858;
+            position: relative;
+            width: var(--width-of-input);
+
+            .search-container {
+                display: flex;
+                align-items: center; // Centra verticalmente el input de búsqueda
+                justify-content: center;
+
+                .bi {
+                    margin-right: 10px;
+                    font-size: 20px;
+                    color: #011627;
+                }
+
+                .input {
+                    border: none;
+                    padding: 8px;
+                    border-radius: 10px;
+                    margin-top: 10px;
+                    color: gray;
+                    margin-bottom: 15px;
+                    font-size: 0.9rem;
+                    background-color: transparent;
+                    width: 100%;
+                    box-sizing: border-box;
+                    padding-inline: 0.5em;
+                    padding-block: 0.7em;
+                    border-bottom: var(--border-height) solid var(--border-before-color);
+                }
+
+                /* styling of animated border */
+                .input-border {
+                    position: absolute;
+                    margin-bottom: 15px;
+                    background: var(--border-after-color);
+                    width: 0%;
+                    height: 2px;
+                    bottom: 0;
+                    left: 0;
+                    transition: 0.3s;
+                }
+
+                input:focus {
+                    outline: none;
+                }
+
+                /* here is code of animated border */
+                input:focus~.input-border {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .avatar {
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+    }
+
+    .status {
+        display: inline-block;
+        border-radius: 8px;
+        padding: 5px;
+        width: 80px;
+        text-align: center;
+
+        &.Activo {
+            color: green;
+            background-color: rgba(3, 167, 3, 0.316);
+        }
+
+        &.Despedido {
+            color: crimson;
+            background-color: rgba(255, 0, 0, 0.5);
+        }
+
+        &.Inactivo {
+            color: goldenrod;
+            background-color: rgba(189, 189, 3, 0.103);
+        }
+    }
+
+    .cellAction {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .viewButton {
+            padding: 2px 5px;
+            border-radius: 5px;
+            border: none;
+            width: 80px;
+            background-color: rgba(57, 144, 170, 0.663);
+        }
+
+        .deleteButton {
+            padding: 2px 5px;
+            border-radius: 5px;
+            width: 80px;
+            border: none;
+        }
+    }
+
+    .noData-img {
+        width: 400px;
+        aspect-ratio: 1/1;
+    }
+}

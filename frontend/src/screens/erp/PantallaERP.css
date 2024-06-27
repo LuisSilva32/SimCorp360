@@ -1,0 +1,13 @@
+.logo-principal-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    aspect-ratio: 2/1;
+}
+
+.logo-principal-container img {
+    width: 150px;
+}

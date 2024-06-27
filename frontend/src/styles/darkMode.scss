@@ -1,0 +1,310 @@
+.darkMode {
+    background-color: #141A28;
+    color: #ffffff;
+
+    .chartGrid {
+        stroke: rgba(228, 228, 228, 0.219);
+    }
+
+    // --------------- Modo oscuro Navbar ---------------
+    .navbar {
+        color: #ffffff;
+
+        .wrapper {
+
+            .search {
+                border-color: #1B2537;
+                background-color: #1B2537;
+                box-shadow: none;
+            }
+
+            .items {
+
+                .item {
+
+                    .bi {
+                        background-color: #1B2537;
+                        box-shadow: none;
+                    }
+                }
+
+                .item-user {
+
+                    .avatar {
+                        background-color: #1B2537;
+                        box-shadow: none;
+                    }
+                }
+            }
+        }
+    }
+
+    // -------------------------------------------------
+
+    // ----------- Modo oscuro sidebar -----------------
+    .sidebar {
+        background-color: #141A28;
+
+        .containerCenter {
+            ul {
+                .title {
+                    color: lightgray;
+                }
+
+                .link-sidebar {
+
+                    &:hover {
+                        background-color: #1B2537;
+                    }
+
+                    .bi {
+                        color: gray;
+                    }
+
+                    span {
+                        color: #999;
+                    }
+                }
+
+                .link-sidebar.active {
+                    background-color: #1B2537;
+                }
+            }
+        }
+
+        .containerLogout {
+            .link-sidebar {
+
+                &:hover {
+                    background-color: #1B2537;
+                }
+
+                .bi {
+                    color: gray;
+                }
+
+                span {
+                    color: #999;
+                }
+            }
+
+            .link-sidebar.active {
+                background-color: #1B2537;
+            }
+        }
+    }
+
+    // ------------------------------------------------
+
+    // ---------- Modo oscuro widgets ----------
+    .widget {
+        background-color: #1B2537;
+        box-shadow: none;
+
+        .right {
+
+            .percentage {
+
+                &.positive {
+                    color: #4cceac;
+                }
+
+                &.negative {
+                    color: crimson;
+                }
+            }
+        }
+    }
+
+    // -----------------------------------------
+
+    // --------- Modo oscuro featured ----------
+    .featured {
+        background-color: #1B2537;
+        box-shadow: none;
+    }
+
+    // ------------------------------------------
+
+    // -------- Modo oscuro chart ---------------
+    .chart {
+        background-color: #1B2537;
+        box-shadow: none;
+
+        .chartGrid {
+            stroke: #4cceab31;
+        }
+    }
+
+    // ------------------------------------------
+
+    // ----- Modo oscuro list-container-home -----
+    .home {
+
+        .homeContainer {
+
+            .list-container-home {
+                background-color: #1B2537;
+                box-shadow: none;
+
+                .status {
+                    &.Entregado {
+                        color: #ffffff;
+                    }
+
+                    &.Pendiente {
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+
+    // -------------------------------------------
+
+    // ---------- Modo oscuro datatable -----------
+    .datatable {
+
+        .header {
+
+            .title-table {
+                color: #ffffff;
+            }
+
+            .search-container {
+
+                .bi {
+                    color: #ffffff;
+                }
+
+                .input::placeholder {
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+
+    // --------------------------------------------
+
+    .list-container-resume-management-screen {
+        box-shadow: none;
+        background-color: #1B2537;
+    }
+
+    .new-employee-container {
+        background-color: #1B2537;
+        box-shadow: none;
+
+        &:hover {
+            box-shadow: none;
+        }
+
+        .title-container {
+
+            h1 {
+                color: #ffffff;
+            }
+        }
+
+        .new-employee-form {
+
+            .label-new-employee-form {
+                color: #ffffff;
+            }
+
+            .formCheck label {
+                color: #ffffff;
+            }
+        }
+    }
+
+    .list-container-product-screen {
+        box-shadow: none;
+        background-color: #1B2537;
+
+        &:hover {
+            box-shadow: none;
+        }
+    }
+
+    .new-product-container {
+        background-color: #1B2537;
+        box-shadow: none;
+
+        &:hover {
+            box-shadow: none;
+        }
+
+        .title-container {
+
+            h1 {
+                color: #ffffff;
+            }
+        }
+
+        .new-product-form {
+
+            .label-new-product-form {
+                color: #ffffff;
+            }
+
+            .formCheck label {
+                color: #ffffff;
+            }
+        }
+    }
+
+    .custom-card {
+        background-color: #1B2537;
+
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: lightgray;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-subtitle {
+            font-size: 1rem;
+            color: gray;
+        }
+
+        .card-text {
+            font-size: 1.2rem;
+            color: gray;
+            margin-top: 1rem;
+        }
+    }
+
+    .container-buttom {
+        .card-indicator {
+            background-color: #1B2537;
+            box-shadow: none;
+            color: lightgray;
+        }
+    }
+
+    .list-container-trade-screen {
+        background-color: #1B2537;
+        box-shadow: none;
+
+        &:hover {
+            box-shadow: none;
+        }
+    }
+
+    .trade-page {
+        background-color: #1B2537;
+
+        &:hover {
+            box-shadow: none;
+        }
+
+        .btn-primary {
+            background-color: #141A28;
+            color: #4cceac;
+        }
+    }
+
+
+}

@@ -1,0 +1,18 @@
+.list-container-trade-screen {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 10px 0 10px;
+    background-color: #ffffff;
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+
+    &:hover {
+        box-shadow: 2px 4px 10px 1px rgba(207, 170, 170, 0.47);
+    }
+
+    .trade-button {
+        color: crimson;
+        background-color: rgb(255, 0, 0, 0.05);
+        border: crimson 0.5px solid;
+    }
+}
